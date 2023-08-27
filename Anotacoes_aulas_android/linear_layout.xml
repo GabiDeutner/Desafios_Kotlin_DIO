@@ -9,20 +9,20 @@
     android:paddingRight="16dp">
 
 <EditText
-android:layout_width="match_parent"
-android:layout_height="wrap_content" />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
 
 <EditText
-android:layout_width="match_parent"
-android:layout_height="wrap_content" />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
 
 <EditText
-android:layout_width="match_parent"
-android:layout_height="wrap_content" />
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
 
 <Button
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="Enviar Formulário" />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enviar Formulário" />
 
 </LinearLayout>
