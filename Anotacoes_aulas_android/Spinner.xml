@@ -1,0 +1,18 @@
+<!-- Arquivo  activity_main.xml aula de Spinner-->
+
+<Spinner
+	android:id="@+id/sp_cidades"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:entries="@array/array_cidades"
+	app:layout_constraintTop_toBottomOf="@id/s_lampada"
+	app:layout_constraintStart_toStartOf="@id/s_lampada"/>
+
+<!-- Arquivo  strings.xml aula de Spinner-->
+
+    <string-array name="array_cidades">
+        <item>Araraquara</item>
+        <item>Taquaringa</item>
+        <item>São Paulo</item>
+        <item>Salvador</item>
+    </string-array>
