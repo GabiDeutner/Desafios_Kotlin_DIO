@@ -1,10 +1,12 @@
+<!-- Arquivo  activity_main.xml aula de Radio Buttons-->
+
 <RadioGroup
 	android:id="@+id/rg_comida_favorita"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:orientation="vertical"
-	app:layout_constraintStart_toStartOf="@+id/btn_calcular"
-	app:layout_constraintTop_toBottomOf="@+id/btn_calcular">
+	app:layout_constraintStart_toStartOf="@id/btn_calcular"
+	app:layout_constraintTop_toBottomOf="@id/btn_calcular">
 
 	<RadioButton
 		android:id="@+id/rb_pizza"
