@@ -8,38 +8,38 @@
     android:paddingRight="16dp">
 
 <EditText
-android:id="@+id/nome"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:hint="Nome" />
+    android:id="@+id/nome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nome" />
 
 <EditText
-android:id="@+id/sobrenome"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:layout_below="@id/nome"
-android:hint="Sobrenome" />
+    android:id="@+id/sobrenome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/nome"
+    android:hint="Sobrenome" />
 
 <TextView
-android:id="@+id/cidade"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="Cidade: Araraquara"
-android:layout_below="@id/sobrenome" />
+    android:id="@+id/cidade"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cidade: Araraquara"
+    android:layout_below="@id/sobrenome" />
 
 <TextView
-android:id="@+id/gosto_musical"
-android:layout_width="96dp"
-android:layout_height="wrap_content"
-android:layout_below="@+id/cidade"
-android:text="Gosto Musical" />
+    android:id="@+id/gosto_musical"
+    android:layout_width="96dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/cidade"
+    android:text="Gosto Musical" />
 
 <Button
-android:id="@+id/btn_enviar"
-android:layout_width="96dp"
-android:layout_height="wrap_content"
-android:layout_below="@+id/gosto_musical"
-android:text="Enviar" />
+    android:id="@+id/btn_enviar"
+    android:layout_width="96dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/gosto_musical"
+    android:text="Enviar" />
     
     
-    </RelativeLayout>
+</RelativeLayout>
