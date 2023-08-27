@@ -1,7 +1,9 @@
+<!-- Arquivo  activity_main.xml aula de Switch-->
+
 <Switch
 	android:id="@+id/s_lampada"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:text="Ligar Lampada?"
-	app:layout_constraintTop_toBottomOf="@+id/cb_compromisso2"
-	app:layout_constraintStart_toStartOf="@+id/cb_compromisso1"/>
+	app:layout_constraintTop_toBottomOf="@id/cb_compromisso2"
+	app:layout_constraintStart_toStartOf="@id/cb_compromisso1"/>
